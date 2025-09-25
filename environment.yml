@@ -1,0 +1,12 @@
+name: bluerov
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.10
+  - openvino=2025.1.0
+  - cudatoolkit=11.8
+  - pytorch
+  - torchaudio
+  - torchvision
+prefix: /home/daniel-gray/anaconda3/envs/bluerov
